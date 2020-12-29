@@ -4,11 +4,12 @@
 #include "ComandaUtilizator.h"
 using namespace std;
 
-//updated 7
-
 //COMENTARII:
-//
-//
+//Comenzile merg toate in afara de UPDATE (pe care l-am comentat fiind nefinalizat). Am lasat main-ul necomentat, pentru a fi putea fi testate
+//Sintaxa ce se va introduce de la tastatura va cuprinde mereu spatii intre cuvinte si operatori (=). Nu am gasit alta solutie.
+//Am facut initial tot proiectul pe public (in clase) si de curand am vazut ca trebuia sa folosim doar private. 
+//Am facut getteri si setteri dar nu am apucat sa inlocuim peste tot, motiv pentru care inca avem atributele pe public. 
+//Urmeaza sa mai modificam peste tot si sa trecem pe private.
 
 int main()
 {
